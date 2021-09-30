@@ -3,7 +3,7 @@ let adminPassword = 'admin';
 let loginUser = 'user';
 let userPassword = '1234';
 let login;
-let password
+let password;
 
 login = prompt('Enter your login:');
 
