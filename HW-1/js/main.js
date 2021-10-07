@@ -117,7 +117,7 @@ function house() {
     porchNumber = porchNumber.toString();
     let index = porchNumber.indexOf('.')
     porch = porchNumber.slice(0, index);
-    // debugger
+    debugger
     if (+porch <= porchNumber) {
         console.log("Ваш подъезд №" + (+porch + 1));
     }
@@ -134,7 +134,7 @@ function house() {
             console.log('dddddd');
             console.log(numfloor);
         }
-        console.log("Ваш этаж №" + numfloor);
+        // console.log("Ваш этаж №" + numfloor);
     }
     else if (numCel < num) {
         if (numfloor > floors) {
@@ -142,7 +142,7 @@ function house() {
             console.log('aaaaaa');
             console.log(numfloor);
         }
-        console.log("Ваш этаж №" + (+numCel + 1));
+        // console.log("Ваш этаж №" + (+numCel + 1));
     }
 };
 
